@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="CSS/prueba.css">
+</head>
+<body>
+	
+
+	<div id="Menu_lateral">
+<p id="Menu_lateral1"><a href="index.html">Inicio</a><br>
+				<a href="contenedor.html">Contenedor</a><br>
+				<a href="apache.html">Apache</a><br>
+				<a href="dns.html">DNS</a></p>
+</div>
+		<div id="header">
+
+			<nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+				<ul class="ulnav">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="proxmox.html">Proxmox</a></li>
+					<li><a href="contenedor.html">Contenedor</a></li>
+					<li><a href="">Apache</a></li>
+					<li><a href="">DNS</a></li>
+					<li><a href="">Git/Git-Hub</a></li>
+					
+				</ul>
+			</nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
+			<h1>Descarga e instalación.</h1>
+			<section id="cuerpo">
+			<article>
+			<p>Que es?</p>
+				<p>es la creación de una máquina virtual en un ambiente ‘chroot’ directamente en el sistema de arhichos del servidor base</p>
+			</article>
+			<article>
+				<p> Para que se usa?</p>
+				<p>
+			</article>
+			<article>
+			<p>Aqui os enseñaremos a como descargar una plantilla y a instalarla para hacer un contenedor en proxmox.<br>Lo primero que tenemos que hacer es ir a vuestro dominio y pinchar en local hal hacerlo os aparecera esta ventana</p>
+			<img src="Imagenes/ct/cap1.png" class="ct">	
+
+			<p>Entramos en plantillas y seleccionamos la que queramos escoger que en nuestro caso va a ser Ubuntu 17</p>
+			<img src="Imagenes/ct/cap2.png" class="ct">	
+
+			<p>Una vez esté descargada procedemos a crear un contenedor, para ir a la creación de el hay que hacer click aquí.</p>
+			<img src="Imagenes/ct/cap3.png" class="ct">	
+
+			<p>En la esquina superior derecha hay que hacer click crear CT.</p>
+			<img src="Imagenes/ct/cap4.png" class="ct">
+
+			<p>Se te abrira una pestañita como esta, rellenar por lo menos la parte de host y la contraseña.</p>
+			<img src="Imagenes/ct/cap5.png" class="ct">	
+
+			<p>Cuando esté rellenada hacer click en plantilla o siguiente, seleccionamos la plantilla que hayamos descargado.</p>
+			<img src="Imagenes/ct/cap6.png" class="ct">
+
+			<p>Cuando esté seleccionada la plantilla hacer click en root disc, damos el tamaño de disco y continuamos haciendo click en CPU o siguiente.</p>
+			<img src="Imagenes/ct/cap7.png" class="ct">
+
+			<p>Elegir cuantos nucleos queremos coger del procesador y hacemos click en Memoria o siguiente.</p>
+			<img src="Imagenes/ct/cap8.png" class="ct">
+
+			<p>Elegimos cuanta memoria RAM queremos que coja y hacemos click en Redes o siguiente.</p>
+			<img src="Imagenes/ct/cap9.png" class="ct">
+
+			<p>Aquí rellenamos la parte de IPV4 y puerta de enlace, una vez rellenado hacemos click en DNS o siguiente.</p>
+			<img src="Imagenes/ct/cap10.png" class="ct">
+
+			<p>Metemos nuestro DNS y hacemos click en confirmación o siguiente.</p>
+			<img src="Imagenes/ct/cap11.png" class="ct">
+
+			<p>Revisar si todo está correcto y hacer click en finalizado.</p>
+			<img src="Imagenes/ct/cap12.png" class="ct">
+
+			<p>Esperar hasta que deje de procesar todo(tarda poco), cuando acabe cerrar esta ventana.</p>
+			<img src="Imagenes/ct/cap13.png" class="ct">
+
+			<p>Cuando ya haya acabado hacemos click derecho en nuestro contenedor y le damos a consola.</p>
+			<img src="Imagenes/ct/cap14.png" class="ct">
+
+			<p>Una vez se haya abierto la cuenta será root(viene predefinida así) y la contraseña la que hayamos puesto en pasos anteriores.</p>
+			</article>
+
+
+		</section>
+
+	</div>
+
+
+
+</body>
+</html>

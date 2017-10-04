@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="CSS/prueba.css">
+
+	
+</head>
+<body>
+	<header>
+		
+	<nav> 
+
+				<ul class="ulnav">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="proxmox.html">Proxmox</a></li>
+					<li><a href="contenedor.html">Contenedor</a></li>
+					<li><a href="apache.html">Apache</a></li>
+					<li><a href="dns.html">DNS</a></li>
+					<li><a href="git.html">Git/Git-Hub</a></li>
+					
+				</ul>
+			</nav>
+
+	</header>
+	
+	
+	<section id="cuerpo">
+		<article>
+			<p calss="titulo"><b>Que es?</b></p>
+				<p>Proxmos es un entorno de virtualizacion de servidor de codigo abirto.Está en distribuciones Linux basadas en Debian con una versión modificada del Kernel RHEL y permite el despliegue y la gestión de máquinas virtuales y contenedores. Dos tipos de virtualización son compatibles: los contenedores basados con LXC (a partir de la versión 4.0 reemplaza OpenVZ, utilizado en la versión 3.4, incluido3), y la virtualización con KVM.​</p>
+
+
+		</article>
+		<article>
+			<p calss="titulo"><b>Para que se usa?</b></p>
+				<p> Virtualización Empresarial tienen un alto costo y su modelo de licenciamiento lo basan en la cantidad de equipos instalados, Procesadores, Socket's, entre otros.  Con Proxmox usted es libre de usarlo y sin limites.</p>
+		</article>
+		<article>
+			<p calss="titulo"><b>Instalación</b></p>
+				<p>La instalación se realizó mediante el CD del Proxmox.
+				Durante la instalacion se solicitan una serie de datos que ahora iremos viendo.
+				La pantalla inicial de la instalación tiene este aspecto:</p>
+				<img src="Imagenes/prox/prox1.png" >
+
+				<p>Seleccionamos la primera opción para cargar el instalador de Proxmox VE:</p>
+				<img src="Imagenes/prox/prox2.png" >
+
+				<p>Y una vez cargado dicho instalador, la siguiente pantalla muestra el Acuerdo o Contrato de Usuario Final, el famoso EULA:</p>
+				<img src="Imagenes/prox/prox3.png" >
+
+				<p>Para seguir a la siguiente pantalla, pinchar el botón “I agree” para pasar a la pantalla donde se seleccionará el disco duro en el que se instalará el sistema operativo de Proxmox VE:</p>
+				<img src="Imagenes/prox/prox4.png" >
+
+				<p>Dar clic en el botón “Next” . </p>	
+				<img src="Imagenes/prox/prox5.png" >
+
+				<p>Seleccionamos el disco en el caso de que tengamos dos.
+				También tenemos la posibilidad de personalizar tanto el espacio de disco que se utilizará y el sistema de archivos de Proxmox VE:</p>
+				<img src="Imagenes/prox/prox6.png" >
+
+				<p>La siguiente pantalla es para seleccionar el país, la zona horaria (que se establece automáticamente una vez que se selecciona el país) y la distribución del teclado:</p>
+				<img src="Imagenes/prox/prox7.png" >
+
+				<p>Insertamos la contraseña de root en nuestra caso es admin y correo admin@admin.admin:</p>
+				<img src="Imagenes/prox/prox8.png" >
+
+				<p>Una vez dados los datos que nos solicitan, damos clic en el botón “Next” para pasar a la siguiente pantalla:</p>
+				<img src="Imagenes/prox/prox9.png" >
+
+				<p>En esta pantalla se deben proporcionar una serie de datos. Dichos datos son: el nombre FQDN del hipervisor (o sea, el nombre completo del servidor en la forma castellano.com), la dirección IP, la máscara de subred, la puerta de enlace y el DNS del dominio.Una vez puestos los datos continuamos.</p>
+				<img src="Imagenes/prox/prox10.png" >
+
+				<p>Esperar la pantalla de carga.</p>
+				<img src="Imagenes/prox/prox11.png" >
+				<img src="Imagenes/prox/prox12.png" >
+				<img src="Imagenes/prox/prox13.png" >
+				<img src="Imagenes/prox/prox14.png" >
+
+				<p>Ahora todo está instalado y preparado para arrancar por primera vez un sistema Proxmox. Para ello basta con presionar el botón “Reboot”.
+				Al iniciar el denuevo lo primero que nos sale es la pantalla de opciones de arranque:</p>
+				<img src="Imagenes/prox/prox15.png" >
+
+				<p>En ella hay dos opciones:  presionar ENTER para que el proceso de arranque comience inmediatamente o esperar los 4 segundos.</p>
+				<img src="Imagenes/prox/prox16.png" >
+
+				<p>Esperas unos pocos segundos y ya está listo para ser usado.</p>
+				<img src="Imagenes/prox/prox17.png" >
+				<p>Gestionar un Proxmox a base de CLI (Interfaz de Línea de Comandos) para un usuario que se inicia en esta herramienta (y también para un administrador u operador) sería un proceso tedioso. Para reducir este problema, Proxmox VE tiene un interfaz Web (un interfaz grafico). </p>
+
+			</article>
+		</section>
+	<footer>
+		<p>Tutoriales hechos por:
+		<p>Eder Grijalba  Contacto: edergrijalbaempleo@gmail.com</p>
+		<p>Kevin Díaz-Medino Contacto: diazmedinokevin@gmail.com</p>
+		<p>Maitane  Contacto: diazmedinokevin@gmail.com</p>	
+		<p>Veronica Cuadrado  Contacto: diazmedinokevin@gmail.com</p>
+	</footer>	
+</body>
+</html>

@@ -1,0 +1,111 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-color:lightgrey;
+}
+			
+			
+
+#header {
+	margin-left:12.5%;
+	margin-right:12.5%;
+	height: 90%;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:white;
+	width: 75%;
+
+}
+
+nav{
+	z-index: 2;
+	position: absolute;
+	width: 75%;
+}
+
+ul, ol {
+	list-style:none;
+}
+			
+.ulnav {
+	width:100%; /*Le establecemos un ancho*/
+	margin:0 auto; /*Centramos automaticamente*/
+}
+ 
+.ulnav > li {
+	float:left;
+	width:25%;
+	text-align:center;
+	font-size: 200%;
+}
+			
+.ulnav li a {
+	background-color:grey;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+			
+.ulnav li a:hover {
+	background-color:grey;
+	border-bottom: 2px solid;
+	
+	z-index: 1;
+}
+			
+.ulnav li ul {
+	display:none;
+	position:right;
+	width:80%;
+}
+			
+.ulnav li:hover > ul {
+	display:block;
+}
+			
+.ulnav li ul li {
+	position:relative;
+}
+			
+.ulnav li ul li ul {
+	width:90%;
+}
+
+#Menu_lateral{
+	position: fixed;
+	left:0%;
+	top:20%;
+   	right: 87%;
+   	width:12.3%;
+   	margin-right: 20%;
+   	padding-left: 2%;
+   	height:100%;	
+}
+
+#Menu_lateral1{
+    font-size:100%;
+}
+
+#cuerpo{
+	text-align: center;
+	padding-top: 30%;	
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 5%;
+
+}
+h1{
+	margin-top: 5%;
+	position: absolute;
+	z-index: 0;
+
+
+}
+/*contenedor*/
+.ct{
+	width: 50%;
+	height: 50%;
+}
